@@ -86,7 +86,7 @@ h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 200px;
+  width: 150px;
   border: 8px solid #2c2f3f;
 }
 
@@ -424,7 +424,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #173b6c;
 }
 
 .resume .resume-item h4 {
@@ -474,6 +474,9 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+.portfolio .blankspace {
   margin-bottom: 30px;
 }
 
