@@ -4,7 +4,7 @@
 
 .header {
   overflow: hidden;
-  background-color: #dfdfdf;
+  background-color: lightgrey;
   padding:10px;
   border-bottom: #68b701 solid 5px;
 }
@@ -65,10 +65,10 @@
 }
 
 .banner {
+  /* background-color: orange; */
   text-align: center;
   height: 150px;
   padding: 10px 16px;
-  background-size: cover;
   background-position: center;
   width: 100%;
 }
@@ -249,4 +249,9 @@
 
 .service-category.active .dropdown-content {
   display: block;
+}
+
+.facialDetails {
+  font-size: smaller;
+  color: #666;
 }
