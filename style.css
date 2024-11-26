@@ -5,7 +5,6 @@
 .header {
   overflow: hidden;
   background-color: rgb(237, 237, 237);
-  /* padding:10px; */
   border-bottom: #68b701 solid 5px;
   padding-top: 10px;
 }
@@ -33,19 +32,18 @@
 }
 
 .introIMG {
-  padding-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 10px;
   width: 100%;
   min-height: 250px;
   text-align: center;
   color: #000000ba;
-  /* opacity: 70%; */
  }
 
 .fixedHeader {
   position:inherit;
   /* top: 0; */
   height: 300px;
-  /* padding: 10px 16px; */
   color: #2862cb;
   background-size: cover;
   background-position: center;
@@ -63,7 +61,7 @@
 }
 
 .button {
-  background-color: rgb(255, 185, 55);/* #68b701; */
+  background-color: rgb(255, 185, 55);
   border: none;
   color: #4b8401;
   padding: 15px 15px;
@@ -161,8 +159,6 @@
   margin-right: auto;
 }
 
- 
-
 .introText {
   opacity: 100% !important;
   font-size: 70px;
@@ -175,14 +171,10 @@
   font-weight: bolder;
   font-size: 30px;
   background-color: #339acd12;
-  padding:10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: #68b701 solid 5px;
 }
-
-
-
-
-
 
 .services-container {
   max-width: 1200px;
@@ -230,11 +222,9 @@
   font-size: 0.9rem;
 }
 
-
 .dropdown-content li:last-child {
   border-bottom: none;
 }
-
 
 .service-category.active .dropdown-content {
   display: block;
