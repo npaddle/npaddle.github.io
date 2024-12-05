@@ -151,7 +151,8 @@
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 768px) {
   .revCol {
-    width: 40%;
+    width: 97%;
+    display: block;
   }
 }
 
@@ -243,17 +244,11 @@
   height: 50px;
   background-color: gray;
   text-align: center;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-
-/* @media (max-width: 768px) {
-  .topBar {
-    font-size: xx-small;
-  }
-  
-  .smallContact {
-    font-size: xx-small;
-  }
-} */
 
 .smallContact {
   color: #68b701;
@@ -261,6 +256,20 @@
   font-size: 15px;
   padding-left: 30px;
   padding-right: 30px;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+@media (max-width: 768px) {
+  .topBar {
+    flex-direction: column; /* Stack items vertically */
+    height: auto; /* Allow height to adjust dynamically */
+    padding: 10px 0; /* Add padding for spacing */
+  }
+
+  .smallContact {
+    font-size: 12px; /* Adjust font size for smaller screens */
+    padding: 5px 0; /* Reduce padding for better spacing */
+  }
 }
 
 .bottomBar {
