@@ -80,7 +80,7 @@
 
 .column {
   float: left;
-  width: 31%;
+  width: 32.2%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -121,7 +121,7 @@
 /* Create four equal columns that floats next to each other */
 .revCol {
   float: left;
-  width: 24%;
+  width: 24.3%;
 }
 
 /* Clear floats after rows */
@@ -262,6 +262,24 @@
   justify-content: center;
   width: 95%;
   align-items: center;
+  gap: 20px;
+}
+
+.aboutus img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .aboutus {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .aboutus img {
+    padding-left: 0;
+    max-width: 90%;
+  }
 }
 
 .bottomInfo {
