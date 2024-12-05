@@ -91,9 +91,9 @@
   padding: 0 8px;
 }
 
-@media screen and (max-width: 650px) {
+@media (max-width: 768px) {
   .column {
-    width: 100%;
+    width: 97%;
     display: block;
   }
 }
@@ -149,7 +149,7 @@
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .revCol {
     width: 48%;
   }
@@ -245,7 +245,7 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .topBar {
     font-size: xx-small;
   }
@@ -253,7 +253,7 @@
   .smallContact {
     font-size: xx-small;
   }
-}
+} */
 
 .smallContact {
   color: #68b701;
