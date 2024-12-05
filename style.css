@@ -41,14 +41,20 @@
  
 .fixedHeader {
   position:inherit;
-  /* top: 0; */
-  height: 300px;
   color: #2862cb;
   background-size: cover;
   background-position: center;
   width: 100%;
   text-align: center;
   border-bottom: solid 10px #68b701;
+  background-color: grey; 
+  min-height: 350px;
+}
+
+@media (max-width: 768px) {
+  .fixedHeader {
+    min-height: 250px;
+  }
 }
 
 .banner {
@@ -143,9 +149,9 @@
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .revCol {
-    width: 49%;
+    width: 48%;
   }
 }
 
@@ -237,6 +243,16 @@
   height: 50px;
   background-color: gray;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .topBar {
+    font-size: xx-small;
+  }
+  
+  .smallContact {
+    font-size: xx-small;
+  }
 }
 
 .smallContact {
