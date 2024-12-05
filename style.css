@@ -151,7 +151,7 @@
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 768px) {
   .revCol {
-    width: 48%;
+    width: 40%;
   }
 }
 
