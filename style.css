@@ -2,6 +2,11 @@
   font-family:Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-color: #d1d6c6; 
+  margin: 0;
+}
+
 .header {
   overflow: hidden;
   background-color: #d1d6c6;
@@ -48,6 +53,17 @@
   border-bottom: solid 10px #68b701;
   background-color: #6f7065; 
   min-height: 280px;
+}
+
+.selfPromo {
+  text-align: right;
+  color: white;
+  padding-right: 10px;
+  height: 30px;
+  /* margin-top: 10px; */
+  background-color: rgb(46, 46, 46); 
+  border-top: 3px solid #68b701;
+  font-size: 15px;
 }
 
 @media (max-width: 768px) {
@@ -212,6 +228,17 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-bottom: 10px;
+}
+
+.bottomInfo {
+  color: #68b701;
+  text-align: center;
+  width: 32%;
+}
+
+.bottomTitle {
+  font-size: 20px;
 }
 
 @media (max-width: 768px) {
@@ -230,7 +257,12 @@
     flex-direction: column; /* Stack items vertically */
     height: auto; /* Allow height to adjust dynamically */
     padding: 10px 0; /* Add padding for spacing */
-    align-items: center;
+  }
+
+  .bottomInfo {
+    width: 90%;
+    text-align: left;
+    padding-left: 10px;
   }
 }
 
@@ -261,12 +293,6 @@
     padding-left: 0;
     max-width: 80%;
   }
-}
-
-.bottomInfo {
-  color: #68b701;
-  text-align: center;
-  width: 32%;
 }
 
 div {
@@ -350,4 +376,65 @@ div {
   font-weight: bold;
   color: #68b701;
   white-space: nowrap;
+}
+
+
+
+
+
+
+
+.site-repairs{
+
+  padding:0;
+position: relative;
+}
+
+.site-repairs figure{
+  display:inline-block;
+  padding:0;
+position: absolute;
+
+}
+
+
+.image-container { 
+  display: flex; /* Align items in a row */ 
+  justify-content: space-around; /* Space between items */ 
+  align-items: center; /* Center items vertically */ 
+  /* background-color: white; */
+} 
+
+.image-item { 
+  text-align: center; /* Center text under images */ 
+  background-color: white;
+} 
+
+.image-item img { 
+  max-width: 400px; /* Responsive images */ 
+  height: auto; /* Maintain aspect ratio */ 
+  margin-bottom: -10px;
+} 
+
+.imgDisc {
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .image-item img {
+    width: 100%;
+  }
+
+  .image-item {
+    width: 60%;
+    /* background-color: #d1d6c6; */
+    margin-bottom: 20px;
+  }
 }
